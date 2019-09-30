@@ -1,4 +1,4 @@
-# Made edits to the website, make sure you run it before edditign summore
+## Made edits to the website, make sure you run it before edditign summore
 
 
 
