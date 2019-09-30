@@ -1,3 +1,6 @@
+# Made edits to the website, make sure you run it before edditign summore
+
+
 
 TITLE: 
 Elate - One Page Responsive Free HTML5 template
