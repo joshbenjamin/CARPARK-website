@@ -209,15 +209,15 @@
 	};
 
 	var workAnimate = function() {
-		if ( $('#fh5co-work').length > 0 ) {	
+		if ( $('#fh5co-problem').length > 0 ) {	
 
-			$('#fh5co-work').waypoint( function( direction ) {
+			$('#fh5co-problem').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 
 
 					setTimeout(function() {
-						$('#fh5co-work .to-animate').each(function( k ) {
+						$('#fh5co-problem .to-animate').each(function( k ) {
 							var el = $(this);
 							
 							setTimeout ( function () {
