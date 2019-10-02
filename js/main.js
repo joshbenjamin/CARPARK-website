@@ -238,7 +238,7 @@
 
 
 	var testimonialAnimate = function() {
-		var testimonial = $('#fh5co-testimonials');
+		var testimonial = $('#fh5co-aim');
 		if ( testimonial.length > 0 ) {	
 
 			testimonial.waypoint( function( direction ) {
