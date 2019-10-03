@@ -1413,12 +1413,12 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   #left {
-	flex: 0 49%;
+	flex: 0 50%;
 	background-color: #ef935a
   }
   
   #right {
-	flex: 1 49%;
+	flex: 1 50%;
 	background-color: #76c8f4
   }
 /*# sourceMappingURL=style2.css.map */
