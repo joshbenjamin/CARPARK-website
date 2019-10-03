@@ -1461,6 +1461,24 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
+.green-box {
+	height: 200px;
+	width: 200px;
+	border: solid green 2px;
+	margin-top: 100px;
+	float: left;
+	margin-left: 46%;
+	background-color: #ef935a;
+ }
+
+ .right {
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+  }
+
 
 // #colour-variations li a {
 // 	width: 100%;
