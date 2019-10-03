@@ -1408,22 +1408,39 @@ h1, h2, h3, h4, h5, h6 {
   animation-fill-mode: both;
 }
 
-.green-box {
+.orange-box {
 	height: 200px;
 	width: 200px;
-	border: solid green 2px;
+	border: #ef935a 2px;
 	margin-top: 100px;
 	float: left;
 	margin-left: 46%;
-	background-color: #ef935a;
+	background-color: white;
+ }
+ .blue-box{
+	 height: 200px;
+	 width: 200px;
+	 border: #76c8f4 2px;
+	 margin-top: 100px;
+	 float: left;
+	 margin-left: 46%;
+	 background-color: white;
  }
 
  .right {
-  position: absolute;
-  right: 0px;
-  width: 300px;
-  border: 3px solid #73AD21;
-  padding: 10px;
-}
+	position: absolute;
+	right: 0px;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+  }
+
+  .left {
+	position: absolute;
+	left: 0px;
+	width: 300px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+  }
 
 /*# sourceMappingURL=style4.css.map */
