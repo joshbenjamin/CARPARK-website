@@ -1102,7 +1102,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #52d3aa;
+  background: #ffffff;
   left: 0%;
   margin-left: 0px;
   bottom: 0;
@@ -1113,7 +1113,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 80px;
   height: 2px;
-  background: #52d3aa;
+  background: #ffffff;
   left: 50%;
   margin-left: -40px;
   bottom: 0;
@@ -1148,7 +1148,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #52d3aa;
+  background: #ffffff;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -1173,7 +1173,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   width: 25px;
   height: 3px;
-  background: #52d3aa;
+  background: #ffffff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -1298,7 +1298,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .social li a.social-circle {
-  background: #52d3aa;
+  background: #5BCAF9;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1306,14 +1306,14 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 .social li a:hover {
-  background: #393e46 !important;
+  background: #FF914D !important;
 }
 .social.social-box a {
   background: #52d3aa;
   color: #fff;
 }
 .social.social-circle a {
-  background: #52d3aa;
+  background: #5BCAF9;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
