@@ -101,7 +101,7 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<h1 class="to-animate">CARPARK</h1>
-							<h2 class="to-animate">A low-cost, implementable carparking solution for university campuses.</h2>
+							<h2 class="to-animate">A low-cost, implementable smart parking solution for university campuses.</h2>
 						</div>
 					</div>
 				</div>
@@ -170,7 +170,7 @@
 								The philosophy of user centred design is to have users involved and guarantee a user fit and a useful object bo
 								studying users needs and wants, as opposed to assumming the needs and wants of users.
 								</p>
-								<h4 style="color:white">following is the process we followed for the design of the app, iterating and taking the prototype to users for 
+								<h4 style="color:white">Following is the process we followed for the design of the app, iterating and taking the prototype to users for 
 										assessment.</h4> 
 								<!-- Image here of the process -->
 								<img src="images/surveyAndStuff.png" width="300px">
@@ -188,18 +188,23 @@
 
 						</div>
 						<div  id="right" style="border:3px; border-style:solid; border-color:#068ad1; padding: 1em;">
-								<p style="color:white">Week will take place at UCT from Monday, 7 October, to Friday, 
-								11 October 2019. The week is an annual celebration of UCTʼs efforts to 
-								create an inclusive space for all. The organisers hope to encourage everyone 
-								to make the university a more welcoming space for its gender- and sexually diverse 
-								students and staff. The weekʼs events will include a queer poetry open mic night, panel 
-								discussions, a pride march and a plaza performance. Rainbow UCT is about fostering an inclusive 
-								space for all queer identifying individuals and cultivating a community of acceptance. All members 
-								of the community are invited to take part.</p>
-
+								<p style="color:white">The design process for the physical detection sensor followed an ieterative approach, by working on one functionality at a time. It was decided that, in order to keep the cost as low as possible with effective and reliable technology, the Arduino platform was to be used. The purpose of the module was to be able to track traffic going into and out of parking lots.
+								In order to enable network connectivity for the sensor, the main microcontroller of the module was to be an ESP8266-12E. The entire codebase, which is a single file per microcontroller, is written in the C language, using the Arduino IDE.
+								</p>
+								<br>
 								<div>
-										<img src="images/modeViewController.png" width="250px">
+									<img src="images/arduino.png" width="250px">
+									<img src="images/Clang.png" width="250px">
 								</div>
+								<br>
+								<p style="color:white">
+								In order to track data, such as availability, across several parking lots a central databse was required. We decided to create one using the Django framework, a simple yet powerful database framework. To explore the possibilities of expanding this project into a long term and sustainable project, we decided to host the database on a central, cloud-based platform, Heroku. By doing so, our database is readily accessible at all times via the internet.
+								<br>
+								<div>
+									<img src="images/django.jpg" width="250px">
+									<img src="images/heroku.png" width="250px">
+								</div>
+								</p>
 						</div>
 
 					</div>
@@ -213,6 +218,7 @@
 		<div class="slant"></div>
 	</section>
 
+	<br>
 	<br>
 
 	<section id="fh5co-results" data-section="results">
@@ -283,14 +289,39 @@
 
 
 							<div style="border:3px; border-style:solid; border-color:#068ad1; padding: 1em;">
-								<h3 style="color:white">
-								Joshua my boy do your thing mate</h3>
-									<a href="images/module.jpg" class="fh5co-project-item to-animate">
-										<img src="images/module.jpg" alt="Image" class="img-responsive">
-										<div class="fh5co-text">
-											<h2>Joshua's results</h2>
+								<div>
+										<h3 style="color:white">The Physical Module</h3>
+										<img src="images/module.jpg" width="600px">
+										<br>
+										<div style="border:2px; border-style:dashed; border-color: gray;">
+
+											<p style="color:white">
+											The physical module was designed for cost effectiveness and reliability in mind, which was succesfully done, with the cost of each module being R400 with the suppliers used throughout the project.
+											</p>
+											<br>
+											<p style="color:white">
+											When undergoing testing, the module was able to withstand a substantial amount of processes, being able to upload data to the server at a constant rate, with 100% accuracy. However, the detection algorithm was not always able to pick up cars at the entrance and the exit of the parking lots, only roughly 80% of the time. This is down to several factors but the best way to improve this percentage is by altering the Neural Network that was built for the detection algorithm.
+											</p>
 										</div>
-									</a>
+										
+								</div>
+								<div>
+										<h3 style="color:white">The Server</h3>
+										<img src="images/server.png" width="600px">
+										<br>
+										<div style="border:2px; border-style:dashed; border-color: gray;">
+
+											<p style="color:white">
+											The results of the server were impressive. It was designed with the application developer in mind, providing data in an easy to read and decode JSON format. This data could be reached at a specific URL address which acted as an API.
+											Above is the result of a successful API call where one would retrieve the data for a specific car parking lot, such as Sports Centre 1 parking lot in the example.
+											</p>
+											<br>
+											<p style="color:white">
+												The server was incredibly responsive, with GET requests being processed and received after approximately 150ms. The POST requests, which occurred when the physical united updated the server on the availability of a parking lot, took roughly 220ms to process, considering there were more operations server side. Overall, the server was fully capable for the entirety of our testing phase.
+											</p>
+										</div>
+										
+								</div>
 							</div>
 					</div>
 				</div>
@@ -338,7 +369,7 @@
 											<a href="documents/Literature Review for CARPARK - by Joshua Benjamin.pdf" class="fh5co-project-item to-animate">
 												<img src="images/joshLitReview.png" alt="Image" class="img-responsive">
 												<div class="fh5co-text">
-													<h2>Joshi's literature review</h2>
+													<h2>Josh's literature review</h2>
 													<span>Joshua Benjamin</span>
 												</div>
 											</a>
@@ -369,7 +400,7 @@
 												<a href="documents/Research Paper Final - CARPARK - Joshua Benjamin.pdf" class="fh5co-project-item to-animate">
 													<img src="images/joshFinal.png" alt="Image" class="img-responsive">
 													<div class="fh5co-text">
-														<h2>Joshi's final paper</h2>
+														<h2>Josh's final paper</h2>
 														<span>Joshua Benjamin</span>
 													</div>
 												</a>
